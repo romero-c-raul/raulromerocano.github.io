@@ -3543,3 +3543,14 @@ section.blog-post {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  flex: 25%;
+}
